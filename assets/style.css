@@ -166,7 +166,7 @@ footer .brand{color:var(--ink);font-size:1.05rem}footer .brand img{width:26px;he
 .qs.in{margin-top:clamp(20px,3vw,32px);border:0}
 .qs.in>div{padding:clamp(32px,4vw,56px)}
 .qs.in>img{min-height:280px}
-@media (max-width:900px){.hero .uph{display:none}}
+@media (max-width:1180px){.hero .uph{display:none}}
 /* comparison */
 .vs{display:grid;grid-template-columns:repeat(3,1fr) 1.25fr;gap:14px;align-items:stretch}
 .vc{background:#EFF1F4;color:#7E8798;padding:26px 22px;display:flex;flex-direction:column;gap:16px;min-width:0}
