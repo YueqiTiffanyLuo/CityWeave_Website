@@ -1,4 +1,4 @@
-# CityWeave website
+# CityWeave Tech website
 
 Plain HTML and CSS. No build step is needed to host it.
 
