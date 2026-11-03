@@ -183,6 +183,7 @@ footer .brand{color:var(--ink);font-size:1.05rem}footer .brand img{width:26px;he
 .btn.big{background:var(--yellow);border-color:var(--yellow);color:var(--ink);font-size:clamp(1.1rem,1.6vw,1.3rem);font-weight:700;padding:20px 48px;box-shadow:0 14px 34px #ffd23f73}
 .btn.big:hover{background:#ffc400;border-color:#ffc400}
 @media (max-width:620px){.btn.big{width:100%}}
+.wy svg{width:42px;height:42px;margin-bottom:8px}
 /* comparison */
 .vs{display:grid;grid-template-columns:repeat(3,1fr) 1.25fr;gap:14px;align-items:stretch}
 .vc{background:#EFF1F4;color:#7E8798;padding:26px 22px;display:flex;flex-direction:column;gap:16px;min-width:0}
