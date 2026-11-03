@@ -176,6 +176,7 @@ footer .brand{color:var(--ink);font-size:1.05rem}footer .brand img{width:26px;he
 .shotw{overflow-x:auto;-webkit-overflow-scrolling:touch}
 .swipe{display:none}.swipe2{display:none;margin-top:14px;font-size:.84rem;color:var(--mute)}
 @media (max-width:760px){.swipe{display:inline}}
+@media (max-width:620px){.swipe2{display:block}}
 @media (min-width:621px) and (max-width:900px){.g3>:last-child:nth-child(odd),.g5>:last-child:nth-child(odd){grid-column:1/-1}}
 @media (max-width:760px){.shotw .shot{width:820px;max-width:none}}
 .bigc{display:flex;justify-content:center;margin-top:clamp(36px,5vw,56px)}
