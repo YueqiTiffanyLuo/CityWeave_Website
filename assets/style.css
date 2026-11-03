@@ -101,7 +101,12 @@ footer .brand{color:var(--ink);font-size:1.05rem}footer .brand img{width:26px;he
 @media (max-width:620px){
  body{font-size:16px}
  .g2,.g3,.g4,.g5{grid-template-columns:1fr}
- .phones.p3,.phones.p4{grid-template-columns:1fr;max-width:300px;margin-inline:auto}
+ .phones.p3{grid-template-columns:1fr;max-width:300px;margin-inline:auto}
+ .phones.p4{display:flex;gap:16px;overflow-x:auto;scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch;scrollbar-width:none;margin-inline:calc(-1*var(--gl)) calc(-1*var(--gr));padding-inline:var(--gl) var(--gr);scroll-padding-inline:var(--gl)}
+ .phones.p4::-webkit-scrollbar{display:none}
+ .phones.p4>figure{flex:0 0 min(76vw,300px);scroll-snap-align:start}
+ .phones.p4:after{content:"";flex:0 0 1px}
+ .swipe2{display:block}
  .logos{grid-template-columns:1fr}
  .hero.home{min-height:max(600px,min(100vh,900px))}
  .hero:after{background:linear-gradient(180deg,#0b153099 0,#0b153073 50%,#0b153000 72%)}
@@ -169,7 +174,7 @@ footer .brand{color:var(--ink);font-size:1.05rem}footer .brand img{width:26px;he
 .qs.in>img{min-height:280px}
 @media (max-width:1180px){.hero .uph{display:none}}
 .shotw{overflow-x:auto;-webkit-overflow-scrolling:touch}
-.swipe{display:none}
+.swipe{display:none}.swipe2{display:none;margin-top:14px;font-size:.84rem;color:var(--mute)}
 @media (max-width:760px){.swipe{display:inline}}
 @media (min-width:621px) and (max-width:900px){.g3>:last-child:nth-child(odd),.g5>:last-child:nth-child(odd){grid-column:1/-1}}
 @media (max-width:760px){.shotw .shot{width:820px;max-width:none}}
